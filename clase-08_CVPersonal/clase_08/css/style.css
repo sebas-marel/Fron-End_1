@@ -1,0 +1,28 @@
+
+body {font-family: 'Ubuntu', sans-serif;line-height: 2;}
+
+
+h1 {text-align: center; text-transform: uppercase;
+padding-top: 100px;background-color: darkolivegreen;
+}
+
+.fotoCV {width: 250px; height: 250px;}
+
+
+main span {background-color: darkolivegreen;text-transform: uppercase;}
+
+section h1,h2 {background-color: darkolivegreen;}
+
+
+section ul {list-style-type: none;}
+
+.margin {margin-left: 80px;}
+
+
+
+/* estilo del footer */
+
+footer {background-color: darkolivegreen;text-transform: uppercase;
+text-align: center;
+}
+footer .facebook {width: 10; height: 10;}
