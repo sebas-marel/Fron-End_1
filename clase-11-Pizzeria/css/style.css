@@ -1,0 +1,29 @@
+*{margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+
+/* estilo del header */
+
+header{background: #222222;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+
+ul{list-style-type: none;display: flex;}
+
+/* estilo del main */
+
+main{display: flex;}
+
+div{display: flex;}
+
+/* estilo del footer */
+
+footer{background: #222222;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
