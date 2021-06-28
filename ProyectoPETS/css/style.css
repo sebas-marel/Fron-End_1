@@ -1,15 +1,124 @@
-/* estilo del header */
-header{background-color: #F0A83E;
-    }
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap');
 
-header section{
-    background-color: #222222;
-    color: #f3f3f3;
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 
-nav ul li{list-style-type: none;}
+body{
+font-family: 'reboto', sans-serif;
+}
+
+/* estilo del header */
+
+
+header .barraNavegacion{
+background-color: black;
+display: flex;
+color: white;
+justify-content: space-between;
+padding:4px 60px 4px 90px;
+}
+
+header .barraLogo{
+background-color:#F0A83E;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 60px 20px 60px;
+}
+
+header div.barraLogo nav ul{
+display: flex;
+list-style-type: none;
+justify-content: space-between;
+width: 400px;
+}
+
+header div nav ul li{
+color: white;
+padding-left: 10;
+padding-right: 10;
+}
+
 
 /* estilo del main */
-main{background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-height: 490px;
+
+/* primer section */
+
+main section.section1{
+display: flex;
+position: relative;
+}
+
+main section.section1 img{
+width: 100%;
+}
+
+main section.section1 div.texto{
+right: 100px;
+top: 200px;
+display: flex;
+position: absolute;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+height: 150px;
+}
+
+main section.section1 div.texto h2{
+size: 30px;
+color: #3C2313;
+background-color: white;
+padding: 10px;
+border-radius: 20px;
+}
+
+main section.section1 div.texto span{
+size: 16px;
+color: #3C2313;
+}
+
+main section.section1 div.texto button{
+background-color: #F0A83E;
+color: white;
+border-radius: 5px;
+width: 150px;
+height: 50px;
+}
+
+/* segunda section */
+
+main section.section2{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+main section.section2 div.destacados{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+height: 150px;
+padding-top: 20px;
+}
+
+main section.section2 div h1{
+size: 40px;
+color: #3C2313;
+}
+
+main section.section2 div nav ul{
+display: flex;
+list-style-type: none;
+color: #666666;
+width: 350px;
+justify-content: space-between;
+}
+
+main section.section2 div.productos{
+display: flex;
+
 }
