@@ -7,73 +7,91 @@ font-family: 'roboto'
 
 /* estilos del header */
 
-.descuentos {background-color: #1CD1B0;
+header div.descuentos {
+background-color: #1CD1B0;
 height: 30px; 
 font-size: 15px;
 padding: 10px;
 }
-.heroes {background-color: #00669F;
+
+/* estilo del main */
+
+
+main span.heroes {
+background-color: #00669F;
 position: sticky;
 top: 0px;
+display: inline-block;
+width: 100%;
 font-weight: bolder;
 height: 101px;
 font-size: 40px;
 padding-top: 28px;
 padding-left: 28px;
+z-index: 2;
 }
 
+main section{
+display: flex;
+justify-content: space-around;
+margin-top: 150px;
+margin-bottom: 150px;
+}
 
-/* estilo del main */
-
-main {margin-left: 17px;
-margin-right: 17px; 
-margin-top: 152px;
-margin-bottom: 169px;}
-
-section {position: relative;
+main section article{
+position: relative;
 display:inline-block;
 width: 300px;
 height: 529px; 
 background-color: #F3F3F3;
-
 }
 
-.corazon{position: absolute;
-top: 15,87px;
+main section article img.corazon{
+position: absolute;
+top: 15.87px;
 left: 21px;
 }
 
-.batman {position: relative; 
+main section article img.foto{
+position: relative; 
 bottom: 64px;
 left: 90px;
 border-radius: 50%;}
 
-section div {position: relative; 
-    margin-left: 20px;
-    margin-right: 20px;   
-    bottom: 40px;
-    text-align: center;
+main section article div {
+position: relative; 
+bottom: 40px;
+text-align: center;
 } 
 
-h2 {text-transform: uppercase; font-weight: bold;
+main section article h2{
+text-transform: uppercase; font-weight: bold;
 text-align-last: center;
 height: 35px;
 }
 
-.verMas {position: relative;
-    top: 30px;
-    background: #00669F;
+main section article p{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+main section article div button.verMas{
+position: relative;
+top: 30px;
+background: #00669F;
 font-size: 15px;
 color: #F3F3F3;
 padding: 15px 37px;
-
-    }
+}
 
     /* estilo del footer */
 
-footer p{background-color: #00669F;
-    padding: 16px;
-    color: #FFF9F9;
+footer p{
+background-color: #00669F;
+padding: 16px;
+color: #FFF9F9;
 }
 
-footer p span{text-transform: uppercase;}
+footer p span{
+text-transform: uppercase;
+}
