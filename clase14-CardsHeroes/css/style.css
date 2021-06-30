@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{margin: 0;padding: 0; box-sizing: border-box;
+font-family: 'roboto'
+}
+
+/* estilos del header */
+
+header div.descuentos {
+    background-color: #1CD1B0;
+    height: 30px; 
+    font-size: 1rem;
+    padding: 10px;
+}
+
+/* estilo del main */
+
+
+main span.heroes {
+    background-color: #00669F;
+    position: sticky;
+    top: 0px;
+    display: inline-block;
+    width: 100%;
+    font-weight: bolder;
+    height: 15vh;
+    font-size: 2.5rem;
+    padding-top: 28px;
+    padding-left: 28px;
+    z-index: 2;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    height: 2000px;
+}
+
+
+main section article div.card{
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    height: 529px; 
+    background-color: #F3F3F3;
+}
+
+
+main section article div.card img{
+    width: 100%;
+}
+main section article div.card img.corazon{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    width: 13%;
+}
+main section article div.card img.foto{
+    position: relative; 
+    bottom: 10%;
+    border-radius: 50%;
+    width: 40%;
+}
+
+main section article div.card div{
+    position: relative; 
+    bottom: 10%;
+} 
+
+main section article div.card div h2{
+    text-transform: uppercase; font-weight: bold;
+    text-align-last: center;
+    height: 35px;
+}
+
+main section article div.card div p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main section article div.card div button{
+    position: relative;
+    margin-top: 20%;
+    background: #00669F;
+    font-size: 1rem;
+    color: #F3F3F3;
+    padding: 4% 13%;
+}
+
+    /* estilo del footer */
+
+/* footer p{
+background-color: #00669F;
+padding: 16px;
+color: #FFF9F9;
+}
+
+footer p span{
+text-transform: uppercase;
+} */
