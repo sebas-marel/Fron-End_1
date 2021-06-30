@@ -10,7 +10,7 @@ font-family: 'roboto'
 header div.descuentos {
 background-color: #1CD1B0;
 height: 30px; 
-font-size: 15px;
+font-size: 1rem;
 padding: 10px;
 }
 
@@ -24,62 +24,69 @@ top: 0px;
 display: inline-block;
 width: 100%;
 font-weight: bolder;
-height: 101px;
-font-size: 40px;
+height: 15vh;
+font-size: 2.5rem;
 padding-top: 28px;
 padding-left: 28px;
 z-index: 2;
 }
 
 main section{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-margin-top: 150px;
-margin-bottom: 150px;
-width: 100vw;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    height: 2000px;
 }
 
 main section article{
-position: relative;
-display:inline-block;
-width: 40vw;
-height: 529px; 
-background-color: #F3F3F3;
+    position: relative;
+    
 }
 
-main section article img.corazon{
-position: absolute;
-top: 15.87px;
-left: 21px;
+main section article div.card{
+    text-align: center;
+    width: 40vw;
+    height: 529px; 
+    background-color: #F3F3F3;
 }
 
-main section article img.foto{
+
+main section article div.card img.corazon{
+    position: absolute;
+    top: 1.5vh;
+    left: 1.5vw;
+}
+
+main section article div.card img{
+    /* width: 100vw; */
+}
+
+main section article div.card img.foto{
 position: relative; 
 bottom: 64px;
-left: 90px;
 border-radius: 50%;}
 
-main section article div {
-position: relative; 
-bottom: 40px;
-text-align: center;
+main section article div div{
+    position: relative; 
+    bottom: 40px;
+    text-align: center;
 } 
 
-main section article h2{
+main section article div div h2{
 text-transform: uppercase; font-weight: bold;
 text-align-last: center;
 height: 35px;
 }
 
-main section article p{
+main section article div div p{
 padding-left: 20px;
 padding-right: 20px;
 }
 
-main section article div button.verMas{
+main section article div div button.verMas{
 position: relative;
 top: 30px;
 background: #00669F;
@@ -99,13 +106,3 @@ color: #FFF9F9;
 footer p span{
 text-transform: uppercase;
 }
-
-@media (min-width: 500px){
-    main section{
-        display: flex;
-        background-color: green;
-        flex-direction: row;
-
-    }
-}
-
