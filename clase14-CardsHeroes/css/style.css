@@ -129,9 +129,19 @@ text-transform: uppercase;
         flex-wrap: wrap;
         flex-grow: 0%;
         height: 1500px;
+         /* display: flex;    */
+        align-items: center;
+        justify-content: space-evenly;
     }
+
 
     main section article.card{
         width: 34%;
+        position: relative;
+    text-align: center;
+
+    height: auto; 
+    background-color: #F3F3F3;
+    border-radius: 5%;
     }
 }
