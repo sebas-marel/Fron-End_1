@@ -30,14 +30,32 @@ main span.heroes {
     z-index: 2;
 }
 
+main div.marginButton{
+    display: flex;
+
+}
+
+main div.marginButton button.suma{
+    color: #FFFFFF;
+    background: #00669F;
+    position: sticky;   
+    right: 5%;
+    bottom: 5%;
+    font-size: 3rem;
+    padding: 1% 2.5%;
+    border-radius: 50%;
+    order: 1;
+    height: 5%;
+    width: auto;
+}
+
 main section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
-    height: 2000px;
+    height: 3000px;
+
 }
 
 main button.suma{
@@ -51,54 +69,56 @@ main button.suma{
     border-radius: 50%;
 }
 
-main section article div.card{
+main section article.card{
     position: relative;
     text-align: center;
     width: 40vw;
-    height: 529px; 
+    height: auto; 
     background-color: #F3F3F3;
+    border-radius: 5%;
 }
 
 
-main section article div.card img{
+main section article.card img{
     width: 100%;
 }
-main section article div.card img.corazon{
+main section article.card img.corazon{
     position: absolute;
     top: 4%;
     left: 4%;
     width: 13%;
 }
-main section article div.card img.foto{
+main section article.card img.foto{
     position: relative; 
     bottom: 10%;
     border-radius: 50%;
     width: 40%;
 }
 
-main section article div.card div{
+main section article.card div{
     position: relative; 
     bottom: 10%;
 } 
 
-main section article div.card div h2{
+main section article.card div h2{
     text-transform: uppercase; font-weight: bold;
     text-align-last: center;
     height: 35px;
 }
 
-main section article div.card div p{
+main section article.card div p{
     padding-left: 20px;
     padding-right: 20px;
 }
 
-main section article div.card div button{
+main section article.card div button{
     position: relative;
     margin-top: 20%;
     background: #00669F;
     font-size: 1rem;
     color: #F3F3F3;
     padding: 4% 13%;
+    margin-bottom: 10%;
 }
 
     /* estilo del footer */
@@ -111,4 +131,27 @@ color: #FFF9F9;
 
 footer p span{
 text-transform: uppercase;
+}
+
+@media (min-width:460px){
+    main section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 0%;
+        height: 1500px;
+         /* display: flex;    */
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+    main section article.card{
+        width: 34%;
+        position: relative;
+    text-align: center;
+
+    height: auto; 
+    background-color: #F3F3F3;
+    border-radius: 5%;
+    }
 }
