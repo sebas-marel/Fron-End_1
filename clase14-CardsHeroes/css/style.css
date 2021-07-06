@@ -35,11 +35,21 @@ main section{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-bottom: 20vh;
     height: 2000px;
 }
 
+main button.suma{
+    color: #FFFFFF;
+    background: #00669F;
+    position: absolute;   
+    right: 5%;
+    bottom: 5%;
+    font-size: 3rem;
+    padding: 2vh 3vw;
+    border-radius: 50%;
+}
 
 main section article div.card{
     position: relative;
@@ -93,7 +103,7 @@ main section article div.card div button{
 
     /* estilo del footer */
 
-/* footer p{
+footer p{
 background-color: #00669F;
 padding: 16px;
 color: #FFF9F9;
@@ -101,4 +111,4 @@ color: #FFF9F9;
 
 footer p span{
 text-transform: uppercase;
-} */
+}
