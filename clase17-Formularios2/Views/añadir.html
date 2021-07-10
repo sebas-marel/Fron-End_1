@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Añadir</title>
+</head>
+
+<body>
+    <header>
+        <div class="bannerDescuentos">
+            <p>Descuentos 20%</p>
+        </div>
+        <div class="bannerHeroes">
+            <img src="../img/Tienda.png" alt="imagen tienda">
+            <span>Super Heroes</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="views/login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="form">
+                <div class="form-hader">
+                    <h1 class="form-header-h1">Añadí tu super</h1>
+                    <span class="form-header-span">Agregá tu personaje favorito completando las opciones.</span>
+                </div>
+                <div class="form-content">
+                    <div class="form-column">
+                        <div class="label-input">
+                            <label for="name">*Nombre</label>
+                            <input type="text" name="name" id="">
+                        </div>
+                        <div class="label-input">
+                            <label for="name">Fecha</label>
+                            <input type="date" name="fecha">
+                        </div>
+                        <textarea class="form.texarea" name="Descricion" id="" cols="30" rows="10"
+                            placeholder="Descripcion"></textarea>
+                    </div>
+                    <div class="form-column">
+                        <div class="label-input">
+                            <label for="">*Especie</label>
+                            <select name="Especie" id=""></select>
+                        </div>
+                        <div class="label-input">
+                            <label for="">Agregar Foto</label>
+                            <input type="file" placeholder="Seleccionar archivo">
+                        </div>
+                        <div class="label-input">
+                            <span>Poderes</span>
+                            <label><input type="checkbox" name="poderes" value=""> Volar</label>
+                            <label><input type="checkbox" name="poderes" value=""> Superinteligencia</label>
+                            <label><input type="checkbox" name="poderes" value=""> Vista de rayos láser</label>
+                            <label><input type="checkbox" name="poderes" value=""> Billetera gorda</label>
+                        </div>
+                        <hr>
+                        <div class="label-input">
+                            <span>Tipo de personaje</span>
+                            <label for=""><input type="radio" name="moral"> Héroe / Heroína </label>
+                            <label for=""><input type="radio" name="moral"> Villano / Villana </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="form-button-add">Añadir</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a <span>front end 1</span></p>
+    </footer>
+</body>
+
+</html>
