@@ -11,41 +11,54 @@ header div.descuentos {
     height: 30px; 
     font-size: 15px;
     padding: 10px;
-    }
+}
 
-    main div.heroes {
-        display: flex;
-        align-items: center;
-        background-color: #00669F;
-        position: sticky;
-        top: 0px;
-        width: 100%;
-        font-weight: bolder;
-        height: 101px;
-        font-size: 40px;
-        padding-top: 28px;
-        padding-left: 28px;
-        z-index: 2;
-    }
-    
-main form{
+main div.heroes {
     display: flex;
-    width: 620px;
+    align-items: center;
+    background-color: #00669F;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    font-weight: bolder;
+    height: 101px;
+    font-size: 40px;
+    padding-top: 28px;
+    padding-left: 28px;
+    z-index: 2;
+}
+
+/* estilo del main */
+
+main section.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+main section.login form{
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+main section.login form label{
+  
+}
 
-main form input{
-    width: 40%;
+main section.login form input{
+    width: 450px;
     height: 30px;
     margin: 10px;
 }
 
-main form button{
+main section.login form button{
     background-color: #1CD1B0;
     border-radius: 40px;
-    width: 40%;
+    height: 30px;
+    width: 450px;
+    margin-top: 30px;
 }
 
 main form div{
@@ -63,6 +76,7 @@ main form div{
  /* estilo del footer */
 
 footer {
+    position: sticky;
     bottom:0px
 }
 

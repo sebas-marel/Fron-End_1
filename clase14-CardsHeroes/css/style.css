@@ -24,29 +24,22 @@ main span.heroes {
     width: 100%;
     font-weight: bolder;
     height: 15vh;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 28px;
     padding-left: 28px;
     z-index: 2;
 }
 
-main div.marginButton{
-    display: flex;
 
-}
-
-main div.marginButton button.suma{
+main button.suma{
     color: #FFFFFF;
     background: #00669F;
-    position: sticky;   
-    right: 5%;
-    bottom: 5%;
-    font-size: 3rem;
+    position: fixed;   
+    right: 5vw;
+    bottom: 15vh;
+    font-size: 2rem;
     padding: 1% 2.5%;
-    border-radius: 50%;
-    order: 1;
-    height: 5%;
-    width: auto;
+    border-radius: 50%;        
 }
 
 main section{
@@ -54,28 +47,18 @@ main section{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 3000px;
-
 }
 
-main button.suma{
-    color: #FFFFFF;
-    background: #00669F;
-    position: absolute;   
-    right: 5%;
-    bottom: 5%;
-    font-size: 3rem;
-    padding: 2vh 3vw;
-    border-radius: 50%;
-}
 
 main section article.card{
-    position: relative;
+    /* position: relative; */
     text-align: center;
-    width: 40vw;
-    height: auto; 
+    width: 60vw;
+    height: 88vh; 
     background-color: #F3F3F3;
-    border-radius: 5%;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 
@@ -113,12 +96,12 @@ main section article.card div p{
 
 main section article.card div button{
     position: relative;
-    margin-top: 20%;
+    bottom: 5%;
+    /* margin-top: 10%; */
     background: #00669F;
     font-size: 1rem;
     color: #F3F3F3;
     padding: 4% 13%;
-    margin-bottom: 10%;
 }
 
     /* estilo del footer */
@@ -136,22 +119,21 @@ text-transform: uppercase;
 @media (min-width:460px){
     main section{
         flex-direction: row;
-        flex-wrap: wrap;
-        flex-grow: 0%;
-        height: 1500px;
-         /* display: flex;    */
+        flex-wrap: wrap;      
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        margin-right: 7%;
     }
 
+    main button.suma{
+        right: 5px;
+        bottom: 15%;
+    }
 
     main section article.card{
-        width: 34%;
-        position: relative;
-    text-align: center;
-
-    height: auto; 
-    background-color: #F3F3F3;
-    border-radius: 5%;
+        width: 250px;            
+        height: 500px; 
+        background-color: #F3F3F3;
+        border-radius: 5%;
     }
 }
