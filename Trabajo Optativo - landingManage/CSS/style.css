@@ -1,0 +1,54 @@
+
+/* importo fuentes ´Be Vietnam´ 400 , 500 y 700 */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+button.getStarted{
+    background-color: #F3603B;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border-radius: 50px;
+}
+
+/* estilo del header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 7vh;
+}
+
+header img{
+    height: 30px;
+}
+
+header nav{
+    flex-basis: auto;
+}
+
+header nav ul{
+    display: flex;    
+}
+
+header nav ul li{
+    list-style-type: none;   
+}
+
+header nav ul li a{
+    color: #242E52;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+
