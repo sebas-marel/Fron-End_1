@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{margin: 0;padding: 0; box-sizing: border-box;
+font-family: 'roboto'
+}
+/* estilos del header */
+
+
+header div.descuentos {
+    background-color: #1CD1B0;
+    height: 30px; 
+    font-size: 15px;
+    padding: 10px;
+}
+
+main div.heroes {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    font-weight: bolder;
+    height: 101px;
+    font-size: 40px;
+    padding-top: 28px;
+    padding-left: 28px;
+    z-index: 2;
+}
+
+/* estilo del main */
+
+main section.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+main section.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.login form label{
+  
+}
+
+main section.login form input{
+    width: 450px;
+    height: 30px;
+    margin: 10px;
+}
+
+main section.login form button{
+    background-color: #1CD1B0;
+    border-radius: 40px;
+    height: 30px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+main form div{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+ /* estilo del footer */
+
+footer {
+    position: sticky;
+    bottom:0px
+}
+
+footer p{
+    background-color: #00669F;
+    padding: 16px;
+    color: #FFF9F9;
+    }
+    
+    footer p span{
+    text-transform: uppercase;
+    }
