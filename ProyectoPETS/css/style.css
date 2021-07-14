@@ -8,16 +8,15 @@ box-sizing: border-box;
 
 body{
     font-family: 'reboto', sans-serif;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 100vh; */
+    justify-content: space-between;    
 }
 
 /* estilo del header */
 
 
-header .barraNavegacion{
+header div.barraHeader{
 background-color: black;
 display: flex;
 color: white;
@@ -33,7 +32,7 @@ align-items: center;
 padding: 20px 60px 20px 60px;
 }
 
-header div.barraLogo span.iconic{
+header div.barraLogo i.fas{
     display: none;
 }
 
@@ -60,13 +59,13 @@ display: flex;
 position: relative;
 }
 
-main section.section1 img{
+.section1 img{
 width: 100%;
 }
 
-main section.section1 div.texto{
-right: 100px;
-top: 200px;
+.section1 div.texto{
+right: 5%;
+top: 30%;
 display: flex;
 position: absolute;
 flex-direction: column;
@@ -75,7 +74,7 @@ justify-content: space-between;
 height: 150px;
 }
 
-main section.section1 div.texto h2{
+.section1 div.texto h2{
 size: 30px;
 color: #3C2313;
 background-color: white;
@@ -88,48 +87,127 @@ size: 16px;
 color: #3C2313;
 }
 
-main section.section1 div.texto button{
-background-color: #F0A83E;
-color: white;
-border-radius: 5px;
-width: 150px;
-height: 50px;
+.section1 div.texto button{
+    background-color: #F0A83E;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
 }
 
-/* segunda section */
+/*  section 2 */
 
-main section.section2{
-display: flex;
-flex-direction: column;
-align-items: center;
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main section.section2 div.destacados{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
-height: 150px;
-padding-top: 20px;
+.section2 div.destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding-top: 20px;
 }
 
-main section.section2 div h1{
-size: 40px;
-color: #3C2313;
+.section2 div.destacados h1{
+    font-size: 40px;
+    color: #3C2313;
 }
 
-main section.section2 div nav ul{
-display: flex;
-list-style-type: none;
-color: #666666;
-width: 350px;
-justify-content: space-between;
+.section2 div.destacados nav{
+    padding-top: 20px;
 }
 
-main section.section2 div.productos{
-display: flex;
-
+.section2 div.destacados nav ul{
+    display: flex;
+    list-style-type: none;
+    color: #666666;
+    width: 350px;
+    justify-content: space-between;
 }
+
+.section2 div.destacados nav ul a{
+    text-decoration: none;
+}
+
+.section2 div.productos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-top: 5%;
+}
+
+div.productos article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 div.productos span{
+    color: #3C2313;
+    font-weight: bold;
+}
+
+.section2 div.productos p{
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+/* section 3 */
+
+.section3 {
+    padding-top: 5%;
+}
+
+.section3 h3{
+    color: #3C2313;
+    padding-top: 5%;
+}
+
+.section3 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 180px;
+    padding-top: 20px;
+}
+
+.section3 form input{
+    background-color: #3C2313;    
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.section3 div{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding-top: 3%;
+}
+
+.section3 div button{
+    color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 40px; 
+    margin: 0px 10px 0px 10px;   
+}
+
+.section3 div button.reset{
+    background-color: #8A8787;
+}
+
+.section3 div button.enviar{
+    background-color: #F0A83E;
+}
+
 
 @media (max-width:480px) {
     header div.barraNavegacion{
