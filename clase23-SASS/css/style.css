@@ -57,6 +57,15 @@ main .sect1 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  position: relative;
+}
+
+main .sect1 .styleFont {
+  position: absolute;
+  background-color: #03faee;
+  height: 30px;
+  width: 230px;
+  z-index: -1;
 }
 
 main .sect1 .sign {
@@ -87,16 +96,67 @@ main .sect2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 10% 0%;
+  position: relative;
 }
 
 main .sect2 article {
   width: 30%;
   height: 350px;
   background-color: #f8f8f8;
+  padding: 20px 5px 20px 10px;
+  z-index: -2;
+}
+
+main .sect2 article span {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 10px 15px;
+  -webkit-box-shadow: -4px 0px #03faee;
+          box-shadow: -4px 0px #03faee;
+}
+
+main .sect2 article div {
+  position: absolute;
+  background-color: #03faee;
+  top: 59px;
+  width: 20px;
+  height: 8px;
+  z-index: -1;
 }
 
 main .sect2 article h5 {
   font-weight: bolder;
   font-size: 1.1rem;
+  padding: 20px 0px 15px 0px;
+  z-index: 2;
+}
+
+main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0% 10% 5% 10%;
+}
+
+main footer div ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main footer div ul li {
+  margin-left: 10%;
+  border-radius: 50%;
+  padding: 10px 15px;
+  -webkit-box-shadow: -4px 0px #03faee;
+          box-shadow: -4px 0px #03faee;
+}
+
+main footer div ul img {
+  width: 15px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  position: relative;
+}
+
+body div.background {
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+body div.background .back-column {
+  background-color: #E83F84;
+  opacity: 50%;
+  width: 20px;
+}
+
+body header {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+body header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5% 3%;
+}
+
+body header div h1 {
+  font-weight: 400;
+}
+
+body header div img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+body main section.users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  padding: 10px 0px;
+  margin: 10% auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 0.4px solid rgba(34, 34, 34, 0.5);
+}
+
+body main section.users img {
+  width: 50px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
